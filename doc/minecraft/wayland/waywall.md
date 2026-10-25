@@ -36,7 +36,7 @@
         Example: `sudo pacman -U ~/Downloads/waywall-0.5-1-x86_64.pkg.tar.zst`
       
       once finished you can proceed with next section and if any of the dependancies are missing please install them by searching on web and then run the above command again.
-  - Waywall package is available in AUR however it does not come GLFW(graphics library that Minecraft uses), waywall requires custom GLFW to work, either you build GLFW manually described in this section of [waywall documentation](https://tesselslate.github.io/waywall/00_setup.html#glfw) or download prebuilt GLFW from this [frontcage glfw update](https://frontcage.com/t/how-to-comply-with-recent-glfw-rule-changes/139?u=r0hkx).
+  - Waywall package is available in [AUR](https://aur.archlinux.org/packages/waywall-working-git) however it does not come GLFW(graphics library that Minecraft uses), waywall requires custom GLFW to work, either you build GLFW manually described in this section of [waywall documentation](https://tesselslate.github.io/waywall/00_setup.html#glfw) or download prebuilt GLFW from this [frontcage glfw update](https://frontcage.com/t/how-to-comply-with-recent-glfw-rule-changes/139?u=r0hkx).
 
 
 - On **Debian** , prebuilt binaries are available for waywall however they only work with **Debian 13 and up** as older versions do not have updated dependencies to run waywall and older versions should use x11 and [resetti](../x11/resetti.html) instead. Please download `.deb` version from [releases of waywall](https://github.com/tesselslate/waywall/releases).  
@@ -98,7 +98,7 @@ Once you have waywall installed either from prebuilt binaries or built from sour
 
 
 ### Next Steps
-After doing wrapper command and putting glfw path. Launch minecraft once and verify it launches , once confirmed it launches  move on to the [next section](waywall-config.html) to install an example config and learn how to customize it to your liking.
+After doing wrapper command and putting glfw path. Launch minecraft once and verify it launches , **once confirmed it launches**, move on to the [next section](waywall-config.html) to install an example config and learn how to customize it to your liking.
 
 ## Troubleshooting
 On dual-GPU setups (i.e. laptops with integrated and dedicated graphics), waywall may not display mirrors correctly, specifically if the desired GPU is an NVIDIA one.
